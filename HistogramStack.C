@@ -1,3 +1,4 @@
+// Mateusz Janus, 23.11.2024
 #include <iostream>
 
 Bool_t HistogramStack(){
