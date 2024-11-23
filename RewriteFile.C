@@ -8,7 +8,7 @@ void RewriteFile(string n_file = "Cs-137.dat"){
     wid_bin.open("Cs-137.bin", ios::out | ios::binary );
     double d;
     while(widmo >> d) {
-       cout<< d << endl;
+       //cout<< d << endl;
       wid_bin.write((char*)&d, sizeof d);
    }
 
