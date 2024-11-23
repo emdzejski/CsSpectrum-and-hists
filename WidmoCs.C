@@ -20,7 +20,7 @@ Bool_t WidmoCs(string n_file = "Cs-137.dat"){
         
         while(widmo>>val){
         data.push_back(val);
-        //cout << val << endl;
+        cout << val << endl;
         errors.push_back(sqrt(val));
     }
     
